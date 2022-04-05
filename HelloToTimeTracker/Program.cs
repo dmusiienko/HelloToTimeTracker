@@ -66,7 +66,7 @@ namespace HelloToTimeTracker
         [Flags]
         private enum EXECUTION_STATE : uint
         {
-            ES_AWAYMODE_REQUIRED = 0x00000040, // Performs background work even if the computer appears zto be sleeping
+            ES_AWAYMODE_REQUIRED = 0x00000040, // Performs background work even if the computer appears to be sleeping
             ES_CONTINUOUS = 0x80000000, // Remain the same state until the next call
             ES_DISPLAY_REQUIRED = 0x00000002, // Resetting the display idle timer
             ES_SYSTEM_REQUIRED = 0x00000001 // Resetting the system idle timer
